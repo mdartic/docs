@@ -34,6 +34,18 @@
                   'The array of items. Item object is required to have a <code>text</code> property'
                 ],
                 [
+                  'item-text',
+                  'String',
+                  'text',
+                  'Property of items object displayed in select field'
+                ],
+                [
+                  'item-value',
+                  'String',
+                  'value',
+                  'Property of items object affected to the <code>v-model</code> property'
+                ],
+                [
                   'max-height',
                   'Number, String',
                   '200',
